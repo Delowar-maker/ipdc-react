@@ -19,7 +19,7 @@ const CustomerExperience = () => {
       <div className="grid gird-cols-1 md:grid-cols-4 gap-10 justify-start">
         <div className="p-4">
           <img src={iconCercle} alt="" className="w-12 h-12" />
-          <p className="text-2xl text-secondary font-bold my-3">Integrity</p>
+          <p className="text-2xl text-dark font-bold my-3">Integrity</p>
           <p className="text-xl text-slate-300">
             Displaying the highest level of Integrity in the way we conduct our
             business
