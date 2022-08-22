@@ -1,0 +1,43 @@
+.swiper {
+  width: 1440px;
+  height: 70vh;
+  position: absolute;
+  top: -57px;
+  z-index: -1;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  color: #000;
+  /* Center slide text vertically */
+  /*  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex; */
+  position: relative;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 900px;
+  height: 90%;
+  position: absolute;
+  top: 100px;
+  right: -20px;
+  /* object-fit: cover; */
+}
+.button-position {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.button-position-second {
+  position: absolute;
+  top: 40%;
+  right: 50px;
+}
+.bottom-info-action {
+  position: absolute;
+  bottom: 10px;
+  left: 5px;
+}

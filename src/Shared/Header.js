@@ -22,7 +22,7 @@ const Header = () => {
   );
 
   return (
-    <div class="navbar bg-base-100 px-2 md:px-12">
+    <div class="navbar  px-2 md:px-12 ">
       <div class="navbar-start">
         <div class="dropdown">
           <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -55,9 +55,9 @@ const Header = () => {
           {menu}
         </ul>
       </div>
-      <div class="navbar-end">
+      <div class="navbar-end  ">
         <FaSistrix class="text-4xl mr-3 md:mr-6" />
-        <a class="btn btn-primary text-white">iSERVICE</a>
+        <a class="btn bg-primary text-white">iSERVICE</a>
       </div>
     </div>
   );

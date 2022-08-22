@@ -14,3 +14,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.carousel .thumb {
+  /* visibility: hidden !important; */
+  display: none !important;
+}
+.carousel .control-dots {
+  bottom: -10px !important;
+}
