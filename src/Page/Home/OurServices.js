@@ -1,6 +1,10 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 import service1 from "../../assets/service1.png";
+import Image from "../../assets/Image.png";
+// import Image from "../../assets/Image.png"
+// import Image from "../../assets/Image.png"
+// import Image from "../../assets/Image.png"
 
 const OurServices = () => {
   return (
@@ -32,7 +36,7 @@ const OurServices = () => {
         </div>
         <div>
           <div>
-            <img src={service1} alt="" className="rounded-sm" />
+            <img src={Image} alt="" className="rounded-sm" />
           </div>
           <div className="flex items-center mt-5">
             <span className="mr-3 text-xl text-secondary font-bold">

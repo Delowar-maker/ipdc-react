@@ -8,7 +8,7 @@ const OurYear = () => {
         <p className="text-6xl font-bold text-secondary">
           Our best results for the Year
         </p>
-        <p className="text-lg text-slate-300 text-center mt-10">
+        <p className="text-sm text-slate-300 text-center mt-10">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
           <br />
           bibendum eget morbi dignissim eu pharetra consequat montes, sagittis.

@@ -1,5 +1,6 @@
 import React from "react";
 import { FaSistrix } from "react-icons/fa";
+import logo from "../assets/logo.png";
 const Header = () => {
   const menu = (
     <>
@@ -48,7 +49,8 @@ const Header = () => {
             {menu}
           </ul>
         </div>
-        <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+        {/* <a class="btn btn-ghost normal-case text-xl">daisyUI</a> */}
+        <img class="text-xl" src={logo} alt="" />
       </div>
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal p-0 uppercase text-secondary font-bold">
